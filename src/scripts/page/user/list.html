@@ -1,0 +1,16 @@
+<template>
+
+  <datatable
+    destroyed.delegate="myEventCallback($event)"
+    columns="id, todo as title, list.name as List, done as checked, createdAt as date | dateFormat:'M/D/YYYY'"
+    repository.bind="todoRepository"
+    search-column="todo"
+    searchable
+    sortable
+    edit.call="myFunctionCallback($event)"
+    destroy
+    actions.bind="actions"
+    populate="list"
+  ></datatable>
+
+</template>
