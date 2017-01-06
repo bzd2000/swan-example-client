@@ -5,13 +5,13 @@ export default {
   endpoints    : [
     {
       name    : 'api',                    // The name by which you reference this endpoint
-      endpoint: 'http://127.0.0.1:1337/', // The URL for this endpoint (defaults to current url)
+      endpoint: 'http://bzd2000-backend.netlify.com:1337/', // The URL for this endpoint (defaults to current url)
       // config  : {},                       // Use config for defaults (like headers).
       default : true                      // Set this to the default endpoint (defaults to false)
     },
     {
       name    : 'auth',                   // The name by which you reference this endpoint
-      endpoint: 'http://127.0.0.1:1337/', // The URL for this endpoint (defaults to current url)
+      endpoint: 'http://bzd2000-backend.netlify.com:1337/', // The URL for this endpoint (defaults to current url)
       // config  : {},                       // Use config for defaults (like headers).
     }
   ],
